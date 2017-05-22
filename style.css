@@ -1,3 +1,4 @@
+
 .container__siteFooter {
   background: #eee;
   font-family: "PT Sans";
@@ -7,7 +8,7 @@
 }
 .siteFooter {
   background: #e7e7e7;
-  padding: 10px;
+  padding: 10px 0 10px;
 }
 .siteFooter__navigation {
   display: -ms-flexbox;
@@ -29,7 +30,7 @@
           align-items: stretch;
 }
 .siteFooter__navigation {
-  padding-top: 20px;
+  padding: 20px 0px 0;
 }
 .social {
   white-space: nowrap;
@@ -235,6 +236,9 @@
   }
 }
 @media screen and (max-width: 500px) {
+  .siteFooter {
+    padding: 0px 0 10px;
+  }
   .siteFooter__navigation-columnsName:after {
     content: '';
     padding: 0.3em;
@@ -250,7 +254,6 @@
     transition: all 0.1s ease;
   }
   .siteFooter__navigation {
-    margin-top: 40px;
     padding-top: 0px;
   }
   .siteFooter__navigation-columns {
