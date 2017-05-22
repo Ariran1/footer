@@ -1,4 +1,15 @@
 
+.footerWidthMlAPl {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 1200px;
+}
+@media screen and (max-width: 1200px) {
+  .footerWidthMlAPl {
+    width: auto;
+  }
+}
 .container__siteFooter {
   background: #eee;
   font-family: "PT Sans";
